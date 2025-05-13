@@ -5,14 +5,7 @@
 This repository demonstrates an end-to-end pipeline for real-time Facial emotion recognition application through full-stack development.
 The frontend is developed in react.js and the backend is developed in FastAPI. The emotion prediction model is built with Tensorflow Keras, and for real-time face detection with animation on the frontend, Tensorflow.js have been used.
 
-# Demo video
-Below is a demo video of the application that I have built.
 
-![Demo GIF](./Resources/emotion-recognition.gif)
-
-High quality youtube video available at - https://youtu.be/aTe05n6T5Vo
-
-[![demo video](./Resources/HLD.png)](https://youtu.be/aTe05n6T5Vo)
 
 # Technologies used
 1. ReactJS.<img align="left" alt="react" width="26px" src="./Resources/react.png" /><br>
@@ -51,7 +44,7 @@ $ npm start
 ```
 
 # UI features
-<img align="center" alt="ui" src="./Resources/ui.png"/>
+
 The UI is developed in ReactJS, the following features have been added to demonstrate real-time facial emotion recognition.
 - Progress bars for each emotion( happy, sad, neutral, disgusted, surprised, fear, angry) that demonstrate the change of emotion from facial expression in real-time via web camera.
 - Detecting face on webcam canvas and changing colour within Bounding box with respect to the predicted emotion also displaying the dominant emotion.
