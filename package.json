@@ -1,20 +1,28 @@
 {
   "name": "facial-emotion-detection",
   "version": "1.0.0",
-  "description": "<img align=\"center\" alt=\"architecture\" src=\"./Resources/HLD.png\"/><br>",
-  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4",
+    "react-webcam": "^7.2.0",
+    "face-api.js": "^0.22.2",
+    "@tensorflow/tfjs": "^3.15.0",
+    "@tensorflow-models/face-landmarks-detection": "0.0.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gannealekya123/facial-emotion-detection.git"
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Gannealekya123/facial-emotion-detection/issues"
-  },
-  "homepage": "https://github.com/Gannealekya123/facial-emotion-detection#readme"
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
 }
